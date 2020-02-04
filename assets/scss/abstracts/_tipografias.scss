@@ -1,3 +1,21 @@
-body {
-    font-family: monospace;
+*     {
+      font-family: $fuente2;
+}
+
+
+body, h2, h1 {
+  font-family: $fuente1;
+}
+
+.logo, .nav, .menu, .cabecera   {
+  font-family: $fuente1;
+  font-size: $tamaño1;
+}
+
+.cuerpo   {
+  font-size: $tamaño2;
+}
+
+.footer   {
+  font-family: $fuente2;
 }
