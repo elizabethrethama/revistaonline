@@ -7,21 +7,34 @@
     margin: 0 auto;
 }
 
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: monospace;
+}
+
 .menu {
     width: 960px;
     padding: 10px;
     border-bottom: 1px solid gray
+
 }
 
 .nav {
     display: inline-block;
     width: 840px;
     text-align: right;
+    display: grid;
 }
 
 .nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 200px 200px;
 }
 
 .input-menu {
