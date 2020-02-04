@@ -163,3 +163,60 @@ body, h2, h1 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+@media (max-width: 600px) {
+    .listado-izquierdo {
+        display: none;
+    }
+
+    .nosotros {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .noticia {
+        flex-direction: column;
+        width: 90%;
+        display: block;
+        text-align: center;
+    }
+
+    .contenedor, .nav, .footer, .newsletter, .noticia, .contenido, .listad-noticias {
+        width: 99%;
+    }
+
+    .cuerpo img {
+        width: 100%;
+    }
+
+    .listad-noticias {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    footer {
+        margin: 10px;
+    }
+
+    .newsletter {
+        height: 200px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .input-menu {
+        width: 40%;
+    }
+
+    .contacto {
+        font-size: 12px;
+    }
+    .contenido {
+        grid-template-columns: 3fr;
+    }
+}
