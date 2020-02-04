@@ -162,61 +162,70 @@ body, h2, h1 {
   font-family: "Montserrat", "sans-serif";
 }
 
-/*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 600px) {
+  .listado-izquierdo {
+    display: none;
+  }
 
+  .nosotros {
+    display: none;
+  }
 
-@media (max-width: 600px) {
-    .listado-izquierdo {
-        display: none;
-    }
+  .menu {
+    width: 100%;
+  }
 
-    .nosotros {
-        display: none;
-    }
+  .noticia {
+    flex-direction: column;
+    width: 90%;
+    display: block;
+    text-align: center;
+  }
 
-    .menu {
-        width: 100%;
-    }
+  .contenedor, .nav, .footer, .newsletter, .noticia, .contenido, .listad-noticias {
+    width: 99%;
+  }
 
-    .noticia {
-        flex-direction: column;
-        width: 90%;
-        display: block;
-        text-align: center;
-    }
+  .cuerpo img {
+    width: 100%;
+  }
 
-    .contenedor, .nav, .footer, .newsletter, .noticia, .contenido, .listad-noticias {
-        width: 99%;
-    }
+  .listad-noticias {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
 
-    .cuerpo img {
-        width: 100%;
-    }
+  footer {
+    margin: 30px;
+  }
 
-    .listad-noticias {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-    }
+  .newsletter {
+    height: 200px;
+    margin-top: 10px;
+    position: relative;
+  }
 
-    footer {
-        margin: 10px;
-    }
+  .input-menu {
+    width: 40%;
+  }
 
-    .newsletter {
-        height: 200px;
-        margin-top: 10px;
-        position: relative;
-    }
+  .contacto {
+    font-size: 12px;
+  }
 
-    .input-menu {
-        width: 40%;
-    }
-
-    .contacto {
-        font-size: 12px;
-    }
-    .contenido {
-        grid-template-columns: 3fr;
-    }
+  .contenido {
+    grid-template-columns: 3fr;
+  }
 }
+@media screen and (max-width: 600px) {
+  .newsletter {
+    background-color: #f2f4f5;
+    flex-direction: column;
+    width: 90%;
+    display: block;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
